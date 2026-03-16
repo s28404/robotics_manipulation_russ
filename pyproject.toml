@@ -1,0 +1,21 @@
+[project]
+name = "robotics-manipulation-russ"
+version = "0.1.0"
+description = "A project for robotic manipulation based on Drake"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pydrake",
+    "matplotlib",
+    "ipykernel",
+    "manipulation",
+    "nbformat",
+    "gradescope_utils",
+    "nbconvert",
+    "timeout_decorator",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
