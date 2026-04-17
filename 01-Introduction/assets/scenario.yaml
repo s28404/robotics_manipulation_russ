@@ -1,0 +1,33 @@
+
+    directives:
+      - add_model:
+          name: iiwa
+          file: "package://drake_models/iiwa_description/urdf/iiwa14_primitive_collision.urdf"
+          default_joint_positions:
+            iiwa_joint_1: [0.0]
+            iiwa_joint_2: [0.1]
+            iiwa_joint_3: [0.0]
+            iiwa_joint_4: [-1.2]
+            iiwa_joint_5: [0.0]
+            iiwa_joint_6: [1.6]
+            iiwa_joint_7: [0.0]
+      - add_weld:
+          parent: world
+          child: iiwa::base
+      - add_model:
+            name: table
+            file: "file:///home/kajetan/Documents/robotics_manipulation_russ/01-Introduction/assets/table.sdf"
+      - add_weld:
+          parent: world
+          child: table::table_link
+          X_PC:
+            translation: [0.5, 0, 0]
+      - add_model:
+            name: B
+            file: "file:///home/kajetan/Documents/robotics_manipulation_russ/01-Introduction/assets/B_model/B.sdf"
+      - add_model:
+            name: block
+            file: "package://drake_models/objects/sdf/box_small.sdf"    
+    model_drivers:
+        iiwa: !IiwaDriver {}
+    
