@@ -1,0 +1,16 @@
+numpy
+pydrake
+matplotlib
+ipykernel
+manipulation
+nbformat
+gradescope_utils
+nbconvert
+timeout_decorator
+trimesh
+shapely
+mapbox-earcut
+manifold3d
+triangle
+coacd
+scipy
