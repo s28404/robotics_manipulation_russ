@@ -1,0 +1,14 @@
+{
+    "tests": [
+        {
+            "name": "Test Simple QP problem",
+            "score": 0.0,
+            "max_score": 4,
+            "status": "failed",
+            "output": "Test Failed: unsupported operand type(s) for *: 'float' and 'pydrake.solvers.MathematicalProgramResult'\n"
+        }
+    ],
+    "leaderboard": [],
+    "execution_time": "0.00",
+    "score": 0.0
+}
