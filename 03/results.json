@@ -1,14 +1,13 @@
 {
     "tests": [
         {
-            "name": "Test Simple QP problem",
-            "score": 0.0,
-            "max_score": 4,
-            "status": "failed",
-            "output": "Test Failed: unsupported operand type(s) for *: 'float' and 'pydrake.solvers.MathematicalProgramResult'\n"
+            "name": "test_final_pose (manipulation.exercises.pick.test_pickplace_initials.TestPickPlacePoses.test_final_pose)",
+            "score": 1,
+            "max_score": 1,
+            "status": "passed"
         }
     ],
     "leaderboard": [],
-    "execution_time": "0.00",
-    "score": 0.0
+    "execution_time": "0.01",
+    "score": 1
 }
