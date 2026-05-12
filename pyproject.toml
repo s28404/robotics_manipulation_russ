@@ -3,7 +3,7 @@ name = "robotics-manipulation-russ"
 version = "0.1.0"
 description = "A project for robotic manipulation based on Drake"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.10, <3.13"
 dependencies = [
     "numpy",
     "pydrake",
@@ -21,6 +21,9 @@ dependencies = [
     "triangle",
     "coacd",
     "scipy",
+    "PyMCubes",
+    "torch",
+    "gymnasium",
 ]
 
 [build-system]

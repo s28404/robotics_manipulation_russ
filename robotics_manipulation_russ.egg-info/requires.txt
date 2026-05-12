@@ -14,3 +14,6 @@ manifold3d
 triangle
 coacd
 scipy
+PyMCubes
+torch
+gymnasium
