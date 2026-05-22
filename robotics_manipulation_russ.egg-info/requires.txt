@@ -1,5 +1,5 @@
 numpy
-pydrake
+drake<=1.44.0,>=1.0.0
 matplotlib
 ipykernel
 manipulation
@@ -8,6 +8,7 @@ gradescope_utils
 nbconvert
 timeout_decorator
 trimesh
+rtree
 shapely
 mapbox-earcut
 manifold3d
@@ -15,5 +16,3 @@ triangle
 coacd
 scipy
 PyMCubes
-torch
-gymnasium

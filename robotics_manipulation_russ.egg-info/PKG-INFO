@@ -2,10 +2,10 @@ Metadata-Version: 2.4
 Name: robotics-manipulation-russ
 Version: 0.1.0
 Summary: A project for robotic manipulation based on Drake
-Requires-Python: <3.13,>=3.10
+Requires-Python: <=3.11,>=3.10
 Description-Content-Type: text/markdown
 Requires-Dist: numpy
-Requires-Dist: pydrake
+Requires-Dist: drake<=1.44.0,>=1.0.0
 Requires-Dist: matplotlib
 Requires-Dist: ipykernel
 Requires-Dist: manipulation
@@ -14,6 +14,7 @@ Requires-Dist: gradescope_utils
 Requires-Dist: nbconvert
 Requires-Dist: timeout_decorator
 Requires-Dist: trimesh
+Requires-Dist: rtree
 Requires-Dist: shapely
 Requires-Dist: mapbox-earcut
 Requires-Dist: manifold3d
@@ -21,7 +22,5 @@ Requires-Dist: triangle
 Requires-Dist: coacd
 Requires-Dist: scipy
 Requires-Dist: PyMCubes
-Requires-Dist: torch
-Requires-Dist: gymnasium
 
 # robotics_manipulation_russ

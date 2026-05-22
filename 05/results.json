@@ -1,0 +1,25 @@
+{
+    "tests": [
+        {
+            "name": "Test compute_candidate_grasps",
+            "score": 4,
+            "max_score": 4,
+            "status": "passed"
+        },
+        {
+            "name": "Test compute_darboux_frame",
+            "score": 4,
+            "max_score": 4,
+            "status": "passed"
+        },
+        {
+            "name": "Test find_minimum_distance",
+            "score": 4,
+            "max_score": 4,
+            "status": "passed"
+        }
+    ],
+    "leaderboard": [],
+    "execution_time": "20.30",
+    "score": 12
+}
