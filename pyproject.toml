@@ -23,6 +23,10 @@ dependencies = [
     "coacd",
     "scipy",
     "PyMCubes",
+    "pycollada",
+    "tqdm",
+    "ipywidgets",
+    
 ]
 
 [build-system]
